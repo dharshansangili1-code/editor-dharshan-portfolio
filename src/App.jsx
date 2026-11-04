@@ -7,24 +7,24 @@ const promotions = [
   {
     title: "Promotion Video 01",
     category: "BRAND PROMOTION",
-    video: "/videos/promotions/promotion1.mp4",
+    video: "https://res.cloudinary.com/ber0rlsa/video/upload/v1793777063/promotion1.mov"
   },
   {
     title: "Promotion Video 02",
     category: "BRAND PROMOTION",
-    video: "/videos/promotions/promotion2.mp4",
+    video: "https://res.cloudinary.com/ber0rlsa/video/upload/v1793777169/promotion2.mov",
   },
    {
     title: "Promotion Video 03",
     category: "BRAND PROMOTION",
-    video: "/videos/promotions/promotion3.mp4",
+    video: "https://res.cloudinary.com/ber0rlsa/video/upload/v1793777295/promotion3.mov",
   },
   {
     title: "Promotion Video 04",
     category: "BRAND PROMOTION",
-    video: "/videos/promotions/promotion4.mp4",
+    video: "https://res.cloudinary.com/ber0rlsa/video/upload/v1793777299/promotion4.mov",
   },
-];
+]
 
 const reels = [
   {
