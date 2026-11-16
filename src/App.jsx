@@ -212,14 +212,10 @@ function App() {
             {promotions.map((item, index) => (
               <article className="video-card promotion-card" key={item.title}>
                 <div className="video-wrapper promotion-video">
-                <video
-                src={item.video}
-                autoPlay
-                muted
-                loop
-                controls
-                playsInline 
-                preload="auto"
+         <video
+  src="https://res.cloudinary.com/YOUR_CLOUD_NAME/video/upload/YOUR_VIDEO.mp4"
+  controls
+  playsInline
 />
                 </div>
 
