@@ -29,19 +29,19 @@ const promotions = [
 const reels = [
   {
     title: "Instagram Reel 01",
-    video: "/videos/reels/reel1.mp4",
+    video: "https://res.cloudinary.com/ber0rlsa/video/upload/v1794989222/reel1.mov",
   },
   {
     title: "Instagram Reel 02",
-    video: "/videos/reels/reel2.mp4",
+    video: "https://res.cloudinary.com/ber0rlsa/video/upload/v1794989253/reel2.mov",
   },
   {
     title: "Instagram Reel 03",
-    video: "/videos/reels/reel3.mp4",
+    video: "https://res.cloudinary.com/ber0rlsa/video/upload/v1794989226/reel3.mov",
   },
    {
     title: "Instagram Reel 04",
-    video: "/videos/reels/reel4.mp4",
+    video: "https://res.cloudinary.com/ber0rlsa/video/upload/v1794989220/reel4.mov",
   },
 ];
 
@@ -205,18 +205,19 @@ function App() {
           {/* PROMOTIONAL VIDEOS */}
           <div className="sub-heading">
             <h3>Promotional Videos</h3>
-            <span>01 — 02</span>
+            <span>01 — 04</span>
           </div>
 
           <div className="promotion-grid">
             {promotions.map((item, index) => (
               <article className="video-card promotion-card" key={item.title}>
                 <div className="video-wrapper promotion-video">
-         <video
-  src="https://res.cloudinary.com/YOUR_CLOUD_NAME/video/upload/YOUR_VIDEO.mp4"
-  controls
-  playsInline
-/>
+  
+              <video
+                 src={item.video}
+                 autoPlay muted loop playsInline controls
+               preload="metadata"
+              />
                 </div>
 
                 <div className="video-info">
